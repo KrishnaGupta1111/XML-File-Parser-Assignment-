@@ -1,6 +1,4 @@
-# CreditSea - Experian Credit Report Dashboard
-
-A professional full-stack MERN application that processes and displays Experian XML credit reports with a beautiful, responsive UI.
+A professional full-stack MERN application that processes and displays XML credit reports with a beautiful, responsive UI.
 
 ## 🎯 Features
 
@@ -22,7 +20,6 @@ A professional full-stack MERN application that processes and displays Experian 
 - **TailwindCSS** for styling
 - **Shadcn UI** components
 - **TanStack Query** for data fetching
-- **Wouter** for routing
 - **Lucide React** for icons
 
 ### Backend
@@ -286,35 +283,6 @@ MONGODB_URI=<your-production-mongodb-uri>
 NODE_ENV=production
 ```
 
-## 📝 Assignment Requirements Coverage
-
-### ✅ Completed Requirements
-
-1. **XML Upload Endpoint** ✅
-   - RESTful API with Express
-   - File format validation
-   - Graceful error handling
-
-2. **Data Extraction & Persistence** ✅
-   - Comprehensive XML parsing
-   - All required fields extracted:
-     - Basic Details (Name, Mobile, PAN, Credit Score)
-     - Report Summary (Accounts, Balances, Enquiries)
-     - Credit Accounts (Bank, Type, Account#, Balance, Overdue, Address)
-   - MongoDB Atlas storage with well-designed schema
-
-3. **Reporting Frontend** ✅
-   - Clean React UI with TailwindCSS
-   - Upload, List, and Detail pages
-   - Professional data visualization
-   - Fully responsive design
-
-4. **Technical Requirements** ✅
-   - RESTful API endpoints
-   - Robust error handling and logging
-   - React with modern hooks and routing
-   - MongoDB for persistence
-   - Comprehensive documentation
 
 ## 🐛 Known Issues & Future Enhancements
 
@@ -327,10 +295,6 @@ NODE_ENV=production
 - User authentication
 - Report comparison features
 - Historical credit score trends
-
-## 👨‍💻 Author
-
-Built with ❤️ for the CreditSea Fullstack Engineer Assignment
 
 ## 📄 License
 
