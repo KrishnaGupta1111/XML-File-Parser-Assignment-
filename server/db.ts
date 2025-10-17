@@ -14,7 +14,7 @@ export async function connectDB() {
   }
 
   try {
-    await mongoose.connect(MONGODB_URI);
+    await mongoose.connect(MONGODB_URI!);
     isConnected = true;
     console.log("✅ Connected to MongoDB Atlas");
   } catch (error) {
